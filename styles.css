@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(C:/Users/MAAIF/Desktop/portfolionature/images/mountains.jpg);
+}
+header {
+    background-image:url(C:/Users/MAAIF/Desktop/portfolionature/images/plant.jpg);
+    color: #141313;
+    text-align: center;
+    padding: 1em 0;
+}
+nav {
+    background-color: #286b65;
+    padding: 0.5em;
+    text-align: left;
+} 
+nav{
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+    font-weight: bold;
+} 
+nav a:hover{
+    color: #40f000;
+    background: #393636;
+}
+.about-us-section{
+    color: #f5f5f5;
+}
+.contact-form{
+    text-decoration: none;
+    text-align: left;
+} 
+.contact-form label{
+    display:flex;
+    margin-bottom: 1px;
+} 
+.contact-form input,
+.contact-form textarea {
+    width: 60%;
+    margin-bottom: 10px; 
+    padding: 8px;
+}
+.registration-form form{
+    display: block;
+}
+.team-member img {
+    border-radius: 80%; 
+    width: 150px;
+    height: 180px;
+    object-fit:cover; 
+    padding-left: 10px;
+} 
+.team-member img:hover{
+    filter: brightness(50%);
+    transition: filter 0.2s ease;
+}
+/* styles.css */
+
+/* styles.css */
+
+.the-team {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-around; /* Distribute items with equal space around */
+    background-color: #dff1dc;
+    padding: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.the-team h2 {
+    width: 100%; /* Make the h2 full width within the flex container */
+    margin-bottom: 20px;
+}
+
+.team-member {
+    flex: 0 0 calc(25% - 20px); /* Adjust the width as needed, minus margin */
+    margin: 0 10px; /
+}
+
+.team-member img {
+    width: 80%; 
+    border-radius: 50%; /* Optional: Add rounded corners to the image */
+}
+
+.team-member p {
+    text-align: center;
+    padding: 15px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.image-container:hover img {
+    filter: brightness(50%);
+    transition: filter 0.2s ease;
+}
+       
+.image-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}       
+.tour-packages {
+    margin-top: 40px;
+}
+.package {
+    border: 1px solid #40f000;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ddd;
+}
+.package h3 {
+    margin-top: 0;
+}
+.price {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2ecc71;
+}
+.tour-tips{
+    background-color: #f5f5f5;
+    margin: auto;
+} 
+section {
+    padding: 20px;
+}
+.about-me, .home,
+.nature-adventures {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.videos h2{
+    text-align: center;
+    color: #fff;
+}
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
